@@ -1,0 +1,53 @@
+body{
+  background-color: #f5f7f6;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+ 
+.dashboard-header{
+  background: linear-gradient(135deg, #00703c, #00532c);
+  color: #ffffff;
+  padding: 1.5rem 0;
+  margin-bottom: 1.5rem;
+}
+ 
+.dashboard-title{
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.75rem;
+}
+ 
+.dashboard-subtitle{
+  margin: 0.25rem 0 0;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+ 
+.dashboard-main{
+  padding-bottom: 2rem;
+}
+ 
+.chart-card{
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+ 
+.chart-title{
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #00532c;
+  margin-bottom: 0.25rem;
+}
+ 
+.chart-description{
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+ 
+.chart-canvas-wrapper{
+  position: relative;
+  height: 280px;
+  width: 100%;
+}
